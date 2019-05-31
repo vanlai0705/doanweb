@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml" dir="ltr">
+  <head>
+    <title>HS Movie</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link
+      rel="stylesheet"
+      href="css/arangechairs.css"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+
+    <!--[if IE 6]>
+      <link rel="stylesheet" href="css/ie6.css" type="text/css" media="all" />
+    <![endif]-->
+    <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="js/jquery-func.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      var mang = ["chair1", "chair2"];
+      document.getElementById(mang[0]).onclick = function() {
+        document.getElementById(mang[0]).style.display = "block";
+      };
+    </script>
+  </head>
+  <body>
+    <div id="shell">
+      <!-- Header -->
+      <div id="header">
+        <h1 id="logo"><a href="/index.html">HS MOVIE </a></h1>
+        <div class="social">
+          <span>FOLLOW US ON:</span>
+          <ul>
+            <li><a class="twitter" href="#">twitter</a></li>
+            <li><a class="facebook" href="#">facebook</a></li>
+            <li><a class="vimeo" href="#">vimeo</a></li>
+            <li><a class="rss" href="#">rss</a></li>
+          </ul>
+        </div>
+
+        <!-- Navigation -->
+        <div id="navigation">
+          <ul>
+            <li><a href="/index.html">TRANG CHỦ</a></li>
+            <li><a href="#">TUYỂN DỤNG</a></li>
+            <li><a href="#">LIÊN HỆ</a></li>
+            <li><a href="#">QUẢNG CÁO</a></li>
+            <li><a href="#">ĐĂNG NHẬP/ĐĂNG KÍ</a></li>
+          </ul>
+        </div>
+        <!-- end Navigation -->
+
+        <!-- Sub-menu -->
+        <div id="sub-navigation">
+          <ul>
+            <li class="dropbtn"><a href="#">PHIM</a></li>
+
+            <li><a href="datve.html">MUA VÉ</a></li>
+            <li><a href="#">RẠP</a></li>
+            <li><a href="#">THÀNH VIÊN</a></li>
+          </ul>
+          <div id="search">
+            <form action="home_submit" method="get" accept-charset="utf-8">
+              <label for="search-field">SEARCH</label>
+              <input
+                type="text"
+                name="search field"
+                value="Tìm kiếm"
+                id="search-field"
+                title="Enter search here"
+                class="blink search-field"
+              />
+              <input type="submit" value="GO!" class="search-button" />
+            </form>
+          </div>
+        </div>
+        <!-- end Sub-Menu -->
+      </div>
+    </div>
+
+    <div id="chairmain">
+      <div class="boxx">
+        <i class="fas fa-tv" id="tivi"></i>
+      </div>
+      <div class="boxx">
+        <span class="titleChair">A</span>
+        <i class="fas fa-couch" id="chair1"></i>
+        <i class="fas fa-couch" id="chair2"></i>
+        <i class="fas fa-couch" id="chair3"></i>
+        <i class="fas fa-couch" id="chair4"></i>
+        <i class="fas fa-couch" id="chair5"></i>
+      </div>
+      <div class="boxx">
+        <span class="titleChair">B</span>
+        <i class="fas fa-couch" id="chair6"></i>
+        <i class="fas fa-couch" id="chair7"></i>
+        <i class="fas fa-couch" id="chair8"></i>
+        <i class="fas fa-couch" id="chair9"></i>
+        <i class="fas fa-couch" id="chair10"></i>
+      </div>
+      <div class="boxx">
+        <span class="titleChair">C</span>
+        <i class="fas fa-couch" id="chair11"></i>
+        <i class="fas fa-couch" id="chair12"></i>
+        <i class="fas fa-couch" id="chair13"></i>
+        <i class="fas fa-couch" id="chair14"></i>
+        <i class="fas fa-couch" id="chair15"></i>
+      </div>
+      <div class="boxx">
+        <span class="titleChair">D</span>
+        <i class="fas fa-couch" id="chair16"></i>
+        <i class="fas fa-couch" id="chair17"></i>
+        <i class="fas fa-couch" id="chair18"></i>
+        <i class="fas fa-couch " id="chair19"></i>
+        <i class="fas fa-couch" id="chair20"></i>
+      </div>
+      <div class="boxx">
+        <span class="titleChair">E</span>
+        <i class="fas fa-couch" id="chair21"></i>
+        <i class="fas fa-couch" id="chair22"></i>
+        <i class="fas fa-couch" id="chair23"></i>
+        <i class="fas fa-couch" id="chair24"></i>
+        <i class="fas fa-couch" id="chair25"></i>
+      </div>
+      <div class="boxx">
+        <span class="titleChair">F</span>
+        <i class="fas fa-couch" id="chair26"></i>
+        <i class="fas fa-couch" id="chair27"></i>
+        <i class="fas fa-couch" id="chair28"></i>
+        <i class="fas fa-couch" id="chair29"></i>
+        <i class="fas fa-couch" id="chair30"></i>
+      </div>
+    </div>
+  </body>
+</html>
